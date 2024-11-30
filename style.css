@@ -1,0 +1,150 @@
+/* General Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Section */
+header {
+    background-color: #efc38e;
+    color: white;
+    padding: 30px;
+    width: 100%;
+}
+
+.header-content {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+.loaves-logo {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+/* Menu Section */
+.catalog-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; /* 4 columnas por defecto */
+    gap: 20px;
+    padding: 20px;
+    justify-items: center;
+}
+
+.catalog-item {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s;
+}
+
+.catalog-item:hover {
+    transform: translateY(-10px);
+}
+
+.catalog-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.catalog-item h3 {
+    font-size: 22px;
+    color: #2E3B4E;
+}
+
+.catalog-item p {
+    font-size: 16px;
+    color: #777;
+}
+
+.catalog-item .price {
+    font-size: 18px;
+    color: #4CAF50;
+    margin-top: 10px;
+}
+
+/* Responsive Design */
+
+/* Pantallas medianas (laptop) */
+@media (max-width: 1200px) {
+    .catalog-container {
+        grid-template-columns: 1fr 1fr 1fr; /* 3 columnas */
+    }
+}
+
+/* Pantallas de tablet */
+@media (max-width: 768px) {
+    .catalog-container {
+        grid-template-columns: 1fr 1fr; /* 2 columnas */
+    }
+
+    .bread-gif {
+        width: 90%; /* Ajusta el tamaño de .bread-gif para pantallas medianas */
+    }
+}
+
+/* Pantallas móviles (menos de 480px) */
+@media (max-width: 480px) {
+    .catalog-container {
+        grid-template-columns: 1fr; /* 1 columna */
+    }
+
+    .bread-gif {
+        width: 100%; /* Hace que el .bread-gif ocupe todo el ancho disponible */
+        padding: 10px; /* Ajusta el padding para móviles */
+    }
+
+    footer {
+        padding: 15px; /* Agrega más padding al footer para móviles */
+    }
+}
+
+.bread-gif {
+    width: 300px; 
+    padding: 10px;
+    background-color: #f5f5f5; 
+    border: 2px solid #ccc; 
+    border-radius: 10px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin: 20px auto;
+}
+
+.bread-gif img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.bread-gif audio {
+    width: 100%;
+    margin-top: 5px; 
+}
+
+/* Footer Section */
+footer {
+    background-color: #efc38e;
+    color: white;
+    text-align: center;
+    padding: 20px;   
+    width: 100%;
+    bottom: 0;
+}
