@@ -4,24 +4,24 @@
         <name>Sourdough White</name>
         <price>$7.00</price>
         <description>Our standard sourdough, perfect for any meal.</description>
-        <image>..\images\Sourdough_White.webp</image>
+        <image>images/Sourdough_White.webp</image>
     </product>
     <product>
         <name>Sourdough Rye</name>
         <price>$8.00</price>
         <description>Sourdough created with 50% rye flour, offering a robust flavor.</description>
-        <image>..\images\Sourdough_Rye.webp</image>
+        <image>images/Sourdough_Rye.webp</image>
     </product>
     <product>
         <name>Sourdough Spelt</name>
         <price>$9.00</price>
         <description>Sourdough made with 100% spelt flour, great for health-conscious consumers.</description>
-        <image>..\images\Sourdough_Spelt.webp</image>
+        <image>images/Sourdough_Spelt.webp</image>
     </product>
     <product>
         <name>Sourdough Seeded</name>
         <price>$9.50</price>
         <description>A delightful mix of seeds within our classic sourdough, packed with flavor.</description>
-        <image>..\images\Sourdough_Seeded.webp</image>
+        <image>images/Sourdough_Seeded.webp</image>
     </product>
 </bakery>
